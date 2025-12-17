@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+/* -------------------- NAVBAR -------------------- */
+header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: none;
+}
+
+nav {
+    padding: 8px 16px;
+    height: 70px;
+    justify-content: space-between;
+}
+
+
+
+/*ox */
+.nav-center {
+    flex: 0 1 600px;
+    gap: 12px;
+}
+
+
+/* -------------------- IMAGE LIST -------------------- */
+
+.image-container .image {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    aspect-ratio: 16 / 9;
+}
+
+
